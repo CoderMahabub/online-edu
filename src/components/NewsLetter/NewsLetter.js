@@ -8,9 +8,9 @@ const NewsLetter = () => {
                 <h2 className="fw-bold text-info">Subscribe Our Newsletter</h2>
                 <p>If you want to know latest Course Update, Don't forget to Subscribe</p>
                 <div className="input-group mb-3 container w-50 mx-auto">
-                    <input type="text" className="form-control" placeholder="Type Your Email" aria-describedby="basic-addon2" />
+                    <input type="text" className="col-md-6 form-control" placeholder="Type Your Email" />
                     <div className="input-group-append">
-                        <button className="btn btn-lg btn-info fw-bold" type="button">Subscribe</button>
+                        <button className="btn btn-lg btn-info fw-bold mt-1" type="button">Subscribe</button>
                     </div>
                 </div>
             </div>
