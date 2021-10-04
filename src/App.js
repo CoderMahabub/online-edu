@@ -9,6 +9,7 @@ import FeaturedCourses from './components/FeaturedCourses/FeaturedCourses';
 import Courses from './components/Courses/Courses';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
+import NewsLetter from './components/NewsLetter/NewsLetter';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/home">
             <Banner></Banner>
             <FeaturedCourses></FeaturedCourses>
+            <NewsLetter></NewsLetter>
           </Route>
           <Route path="/courses">
             <Courses></Courses>

@@ -1,4 +1,6 @@
 .thumbnail{
-    height: 200px;
-
+    height: 300px;
+}
+.featured-course{
+    min-height: 400px;
 }

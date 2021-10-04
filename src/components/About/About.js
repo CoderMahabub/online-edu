@@ -13,11 +13,11 @@ const About = () => {
         <div>
             <div className="about-section">
                 <h1>About Us Page</h1>
-                <p>Some text about who we are and what we do.</p>
-                <p>Resize the browser window to see that this page is responsive by the way.</p>
+                <p>See Details about Online Edu</p>
+                <p>OnlineEdu is a learning platform for all over the world with best quality courses and Instructors.</p>
             </div>
             <h2 className="text-info fw-bolder text-decoration-underline mt-5 mb-4">Popular Instructors</h2>
-            <div className="row d-flex container mx-auto">
+            <div className="row d-flex container mx-auto mb-4">
                 {
                     instructors.map(instructor => (
                         <div className="col-md-4">

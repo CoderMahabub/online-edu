@@ -13,9 +13,10 @@ const FeaturedCourses = () => {
     }, [])
     // console.log(featuredCourses);
     return (
-        <div>
-            <h1 className="text-info fw-bolder mb-5 mt-4"><u>Featured Courses</u></h1>
-            <Row xs={1} md={4} className="g-4 container mx-auto text-start mb-4">
+        <div className="container">
+            <h2 className="text-info fw-bolder mt-5"><u>Featured Courses</u></h2>
+            <p className="mb-4">Discover Your Perfect Program In Our Courses.</p>
+            <Row xs={1} md={2} className="g-4 mx-auto text-start mb-4">
                 {
                     featuredCourses.map(featuredCourse => <Featured key={featuredCourse.idCourse} featuredCourse={featuredCourse}></Featured>)
                 }
