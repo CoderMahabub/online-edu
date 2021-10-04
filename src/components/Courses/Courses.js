@@ -14,7 +14,7 @@ const Courses = () => {
     return (
         <div>
             <h1>Courses</h1>
-            <Row xs={1} md={3} className="g-4 container mx-auto text-start">
+            <Row xs={1} md={3} className="g-4 container mx-auto text-start mb-4">
                 {
                     allCourses.map(course => <Course key={course.idCourse} course={course}></Course>)
                 }

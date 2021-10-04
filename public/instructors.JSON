@@ -1,0 +1,26 @@
+[
+    {
+    "id": 1,
+    "name": "Jane Doe",
+    "catagory": "Graphic Design",
+    "email": "jane@example.com",
+    "teamThumb": "https://online-edu-fakedata.netlify.app/1.jpg",
+    "aboutMe": "Hi, I'm a professional graphic designer with 12 years experience. Owner & Sr. Creative Executive of Expect Graphics Home. I am proud perfectionist when it come to art and design and creative enough to provide some of my best skills here. More than 12 years experience in Graphic Design, Adobe Illustrator, Adobe Photoshop, Branding, Corporate Identity Development, Creative Ideas, Planning, Graphic Design, Identity, Illustrations, Press/Print Publication and & Packaging etc."
+    },
+    {
+    "id": 2,
+    "name": "Mike Ross",
+    "catagory": "Programmer",
+    "email": "mike@example.com",
+    "teamThumb": "https://online-edu-fakedata.netlify.app/2.jpg",
+    "aboutMe": "Hi, I'm a professional Progammer with 30 years experience. Owner & Sr. Creative Executive of Expect Graphics Home. I am proud perfectionist when it come to art and design and creative enough to provide some of my best skills here. More than 12 years experience in Graphic Design, Adobe Illustrator, Adobe Photoshop, Branding, Corporate Identity Development, Creative Ideas, Planning, Graphic Design, Identity, Illustrations, Press/Print Publication and & Packaging etc."
+    },
+    {
+    "id": 3,
+    "name": "John Doe",
+    "catagory": "Web Developer",
+    "email": "john@example.com",
+    "teamThumb": "https://online-edu-fakedata.netlify.app/3.jpg",
+    "aboutMe": "Hi, I'm a professional Web Developer with 12 years experience. Owner & Sr. Creative Executive of Expect Graphics Home. I am proud perfectionist when it come to art and design and creative enough to provide some of my best skills here. More than 12 years experience in Graphic Design, Adobe Illustrator, Adobe Photoshop, Branding, Corporate Identity Development, Creative Ideas, Planning, Graphic Design, Identity, Illustrations, Press/Print Publication and & Packaging etc."
+    }
+]

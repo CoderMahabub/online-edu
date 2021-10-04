@@ -10,7 +10,7 @@ const ContactUs = () => {
     const phoneIcon = <FontAwesomeIcon icon={faPhone} />
     const messageIcon = <FontAwesomeIcon icon={faEnvelope} />
     return (
-        <div className="">
+        <div className="contact-us pb-3">
             <img className="contact-banner" src={ContactBanner} alt="" />
             <section className="container mb-5">
                 <h2 className="fs-1 font-weight-bolder text-center my-4 text-decoration-underline text-info">Contact us</h2>

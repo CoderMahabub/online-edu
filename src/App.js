@@ -8,6 +8,7 @@ import ContactUs from './components/ContactUs/ContactUs';
 import FeaturedCourses from './components/FeaturedCourses/FeaturedCourses';
 import Courses from './components/Courses/Courses';
 import About from './components/About/About';
+import NotFound from './components/NotFound/NotFound';
 
 
 function App() {
@@ -15,23 +16,26 @@ function App() {
     <div className="App">
       <Router>
         <Header></Header>
-        <Route exact path="/">
-          <Banner></Banner>
-          <FeaturedCourses></FeaturedCourses>
-        </Route>
-        <Route path="/home">
-          <Banner></Banner>
-          <FeaturedCourses></FeaturedCourses>
-        </Route>
-        <Route path="/courses">
-          <Courses></Courses>
-        </Route>
-        <Route path="/about">
-          <About></About>
-        </Route>
         <Switch>
+          <Route exact path="/">
+            <Banner></Banner>
+            <FeaturedCourses></FeaturedCourses>
+          </Route>
+          <Route path="/home">
+            <Banner></Banner>
+            <FeaturedCourses></FeaturedCourses>
+          </Route>
+          <Route path="/courses">
+            <Courses></Courses>
+          </Route>
+          <Route path="/about">
+            <About></About>
+          </Route>
           <Route path="/contact">
             <ContactUs></ContactUs>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>

@@ -12,7 +12,7 @@ const Banner = () => {
                     <h1 className="fw-bolder">Learn From <span className="text-info">Anywhere</span></h1>
                     <p className="fs-5 pe-4">Join Millions Of Learners From Around The World! Find The Right Instructor For You. Any Topic, Skill Level, Or Language.</p>
                     <NavLink to="/courses">
-                        <Button variant="info">View Courses</Button>
+                        <Button variant="btn btn-info fw-bold">View Courses</Button>
                     </NavLink>
                 </div>
                 <div className="banner-right">

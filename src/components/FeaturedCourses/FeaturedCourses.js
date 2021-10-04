@@ -15,7 +15,7 @@ const FeaturedCourses = () => {
     return (
         <div>
             <h1 className="text-info fw-bolder mb-5 mt-4"><u>Featured Courses</u></h1>
-            <Row xs={1} md={2} className="g-4 container mx-auto text-start">
+            <Row xs={1} md={4} className="g-4 container mx-auto text-start mb-4">
                 {
                     featuredCourses.map(featuredCourse => <Featured key={featuredCourse.idCourse} featuredCourse={featuredCourse}></Featured>)
                 }
