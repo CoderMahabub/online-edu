@@ -11,9 +11,9 @@ const Featured = (props) => {
     const DollarIcon = <FontAwesomeIcon icon={faDollarSign} />
     const star = <FontAwesomeIcon icon={faStar} />
     const gstar = <FontAwesomeIcon icon={faStarHalfAlt} />
+
     // Destructured 
     const { oeCourseThumb, oeCategory, oeCourseTItle, oeRatings, oeRatingCount, oeCourseDuration, oeCourseLessons, oePrice } = props.featuredCourse;
-
     return (
         <div>
             <Col>
