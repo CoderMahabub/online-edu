@@ -3,6 +3,7 @@ import './NewsLetter.css';
 
 const NewsLetter = () => {
     return (
+        // Newsletter Markup here 
         <div className="news-letter">
             <div className="w-50 mx-auto">
                 <h2 className="fw-bold text-info">Subscribe Our Newsletter</h2>

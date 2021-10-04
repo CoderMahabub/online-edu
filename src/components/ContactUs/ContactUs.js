@@ -6,6 +6,7 @@ import ContactBanner from '../../images/contact banner.png';
 import './ContactUs.css';
 
 const ContactUs = () => {
+    // FontAwesomeIcon
     const locationIcon = <FontAwesomeIcon icon={faLocationArrow} />
     const phoneIcon = <FontAwesomeIcon icon={faPhone} />
     const messageIcon = <FontAwesomeIcon icon={faEnvelope} />

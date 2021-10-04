@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import bannerImg from '../../images/illustration-1.png';
 import './Banner.css';
 
+// Home page Banner 
 const Banner = () => {
     return (
         <div className="banner-section">

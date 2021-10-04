@@ -1,3 +1,4 @@
+/* About Designed  */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
@@ -5,28 +6,23 @@
 .instructorImage{
     height: 300px;
 }
-
 .about-section {
     padding: 50px;
     text-align: center;
     background-color: #086fa3;
     color: white;
 }
-
 .container {
     padding: 0 16px;    
 }
-
 .container::after, .row::after {
     content: "";
     clear: both;
     display: table;
 }
-
 .title {
     color: grey;
 }
-
 .button {
     border: none;
     outline: 0;
@@ -38,7 +34,6 @@
     cursor: pointer;
     width: 100%;
 }
-
 .button:hover {
 background-color: #555;
 }

@@ -1,12 +1,18 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
+    // FontAwesomeIcon 
+    const cap = <FontAwesomeIcon icon={faGraduationCap} />
+
     return (
+        // Site's Menu Here
         <div className="menu">
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
-                    <NavLink className="navbar-brand fs-4 fw-bolder text-info" to="/"><u>OnlineEdu</u></NavLink>
+                    <NavLink className="navbar-brand fs-4 fw-bolder text-info" to="/"><u>{cap}OnlineEdu</u></NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

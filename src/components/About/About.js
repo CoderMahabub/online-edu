@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
     const [instructors, setInstructors] = useState([]);
-
+    // Load Instructor's Data
     useEffect(() => {
         fetch('./instructors.JSON')
             .then(res => res.json())

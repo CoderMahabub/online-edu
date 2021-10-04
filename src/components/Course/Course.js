@@ -6,12 +6,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faBook, faDollarSign, faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Course = (props) => {
+    // FontAwesomeIcon
     const clockIcon = <FontAwesomeIcon icon={faClock} />
     const lessonIcon = <FontAwesomeIcon icon={faBook} />
     const DollarIcon = <FontAwesomeIcon icon={faDollarSign} />
     const star = <FontAwesomeIcon icon={faStar} />
     const gstar = <FontAwesomeIcon icon={faStarHalfAlt} />
 
+    // Destructured
     const { oeCourseThumb, oeCategory, oeCourseTItle, oeRatings, oeRatingCount, oeCourseDuration, oeCourseLessons, oePrice } = props.course;
     return (
         <div>

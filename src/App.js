@@ -9,7 +9,7 @@ import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import Home from './components/Home/Home';
 
-
+// Router
 function App() {
   return (
     <div className="App">

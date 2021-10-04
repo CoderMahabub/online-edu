@@ -5,6 +5,7 @@ import NewsLetter from '../NewsLetter/NewsLetter';
 
 const Home = () => {
     return (
+        // Compile Three Components To Home 
         <div>
             <Banner></Banner>
             <FeaturedCourses></FeaturedCourses>

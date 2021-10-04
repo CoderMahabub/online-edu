@@ -5,8 +5,9 @@
 
 ### Main Features:
 
-- Student Can See and Enroll Different Courses.
-- Online Course. No need to go anywhere.
-- Lifetime Access
+- Anyone Can See and Enroll Different Courses.
+- This website Doesn't reload whole site while switchng links.
+- Maximum Data Comeing from Dynamically.
+- Everyone can see rating before buying any courses.
 
 **Don't Forget To Visit OnlineEdu Website**
