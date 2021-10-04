@@ -1,14 +1,13 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import './Header.css';
 
 const Header = () => {
     return (
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand><NavLink className="fw-bolder text-info" to="/">OnlineEdu</NavLink></Navbar.Brand>
+                    <Navbar.Brand><NavLink className=" fw-bolder text-info" to="/">OnlineEdu</NavLink></Navbar.Brand>
                     <Nav className="me-auto">
                         <NavLink className="nav-link" to="/home">Home</NavLink>
                         <NavLink className="nav-link" to="/courses">Courses</NavLink>

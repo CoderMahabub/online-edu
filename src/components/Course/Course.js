@@ -1,20 +1,39 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import Rating from 'react-rating';
 import './Course.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock, faBook, faDollarSign, faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Course = (props) => {
-    const { oeCourseThumb, oeCategory, oeCourseTItle, oeRatings, oeRatingCount } = props.course;
+    const clockIcon = <FontAwesomeIcon icon={faClock} />
+    const lessonIcon = <FontAwesomeIcon icon={faBook} />
+    const DollarIcon = <FontAwesomeIcon icon={faDollarSign} />
+    const star = <FontAwesomeIcon icon={faStar} />
+    const gstar = <FontAwesomeIcon icon={faStarHalfAlt} />
+
+    const { oeCourseThumb, oeCategory, oeCourseTItle, oeRatings, oeRatingCount, oeCourseDuration, oeCourseLessons, oePrice } = props.course;
     return (
         <div>
             <Col>
                 <Card className="course-card">
-                    <Card.Img className="thumbnail mx-auto" variant="top" src={oeCourseThumb} />
+                    <Card.Img className="cthumbnail mx-auto" variant="top" src={oeCourseThumb} />
                     <Card.Body>
                         <small>{oeCategory}</small>
-                        <Card.Title>{oeCourseTItle}</Card.Title>
+                        <Card.Title className="my-2">{oeCourseTItle}</Card.Title>
                         <Card.Text className="text-warning">
-                            Ratings: {oeRatings} ({oeRatingCount} Reviews)
+                            <Rating
+                                initialRating={oeRatings}
+                                readonly
+                                fullSymbol={star}
+                                emptySymbol={gstar}
+                            />  <small className="text-secondary">  {oeRatings} ( {oeRatingCount} Reviews )</small>
                         </Card.Text>
+                        <div className="row">
+                            <p className="col-md-4 list-style-none">{clockIcon} <span>{oeCourseDuration}</span></p>
+                            <p className="col-md-4 list-style-none">{lessonIcon}<span> {oeCourseLessons} <small>Lessons</small></span></p>
+                            <p className="col-md-4 list-style-none text-danger fw-bold">{DollarIcon}<span> {oePrice}</span></p>
+                        </div>
                     </Card.Body>
                 </Card>
             </Col>

@@ -5,11 +5,11 @@
         "oeCourseTItle": "The Complete JavaScript Course 2020: Build Real Projects!",
         "oeCategory": "Programming Language",
         "oeCourseThumb": "https://online-edu-fakedata.netlify.app/52771.jpg",
-        "oeRatings": "4.1",
+        "oeRatings": "3.1",
         "oeRatingCount": "20",
         "oeCourseDuration": "4h 5m",
         "oeCourseLessons": "18",
-        "oePrice": "415.99",
+        "oePrice": "45.99",
         "oeFeatured": "yes",
         "oeAuthor": "Jhankar Mahbub"
         },
@@ -22,7 +22,7 @@
         "oeRatingCount": "17",
         "oeCourseDuration": "3h 25m",
         "oeCourseLessons": "7",
-        "oePrice": "205.99",
+        "oePrice": "25.99",
         "oeFeatured": "yes",
         "oeAuthor": "Kathelen Monero"
         },
@@ -31,11 +31,11 @@
         "oeCourseTItle": "Learn Figma: User Interface Design Essentials – UI/UX Design",
         "oeCategory": "Design",
         "oeCourseThumb": "https://online-edu-fakedata.netlify.app/52773.PNG",
-        "oeRatings": "4.6",
+        "oeRatings": "2.6",
         "oeRatingCount": "25",
         "oeCourseDuration": "3 Weeks",
         "oeCourseLessons": "10",
-        "oePrice": "115.99",
+        "oePrice": "85.99",
         "oeFeatured": "no",
         "oeAuthor": "Anna Richard"
         },
@@ -48,7 +48,7 @@
         "oeRatingCount": "110",
         "oeCourseDuration": "4h 50m",
         "oeCourseLessons": "17",
-        "oePrice": "253.99",
+        "oePrice": "79.99",
         "oeFeatured": "yes",
         "oeAuthor": "Kathelen Monero"
         },
@@ -61,7 +61,7 @@
         "oeRatingCount": "27",
         "oeCourseDuration": "11h 5m",
         "oeCourseLessons": "19",
-        "oePrice": "315.99",
+        "oePrice": "35.99",
         "oeFeatured": "now",
         "oeAuthor": "Cate Winslet"
         },
@@ -74,7 +74,7 @@
         "oeRatingCount": "200",
         "oeCourseDuration": "7h 5m",
         "oeCourseLessons": "17",
-        "oePrice": "113.99",
+        "oePrice": "88.99",
         "oeFeatured": "yes",
         "oeAuthor": "Bapparaj Khan"
         },
@@ -87,7 +87,7 @@
         "oeRatingCount": "100",
         "oeCourseDuration": "6h 5m",
         "oeCourseLessons": "9",
-        "oePrice": "215.99",
+        "oePrice": "65.99",
         "oeFeatured": "no",
         "oeAuthor": "Jahangir Kabir"
         },
@@ -113,7 +113,7 @@
         "oeRatingCount": "120",
         "oeCourseDuration": "14h 5m",
         "oeCourseLessons": "111",
-        "oePrice": "145.99",
+        "oePrice": "45.99",
         "oeFeatured": "yes",
         "oeAuthor": "Alma Akhter"
         },
@@ -126,7 +126,7 @@
         "oeRatingCount": "20",
         "oeCourseDuration": "4h 5m",
         "oeCourseLessons": "11",
-        "oePrice": "415.99",
+        "oePrice": "45.99",
         "oeFeatured": "yes",
         "oeAuthor": "Jhankar Mahbub"
         },
@@ -139,7 +139,7 @@
         "oeRatingCount": "25",
         "oeCourseDuration": "3 Weeks",
         "oeCourseLessons": "10",
-        "oePrice": "115.99",
+        "oePrice": "95.99",
         "oeFeatured": "no",
         "oeAuthor": "Anna Richard"
         },
@@ -152,7 +152,7 @@
         "oeRatingCount": "20",
         "oeCourseDuration": "4h 5m",
         "oeCourseLessons": "18",
-        "oePrice": "415.99",
+        "oePrice": "99.99",
         "oeFeatured": "yes",
         "oeAuthor": "Jhankar Mahbub"
         }
