@@ -30,10 +30,10 @@ const Featured = (props) => {
                                 emptySymbol={gstar}
                             />  <small className="text-secondary">  {oeRatings} ( {oeRatingCount} Reviews )</small>
                         </Card.Text>
-                        <div className="row">
-                            <p className="col-md-4 list-style-none">{clockIcon} <span>{oeCourseDuration}</span></p>
+                        <div className="row d-flex align-items-center">
+                            <p className="col-md-3 list-style-none">{clockIcon} <span>{oeCourseDuration}</span></p>
                             <p className="col-md-4 list-style-none">{lessonIcon}<span> {oeCourseLessons} Lessons</span></p>
-                            <p className="col-md-4 list-style-none fs-3 text-danger fw-bolder">{DollarIcon}<span> {oePrice}</span></p>
+                            <p className="col-md-5 list-style-none fs-3 text-danger fw-bolder">{DollarIcon}<span> {oePrice}</span></p>
                         </div>
                     </Card.Body>
                 </Card>

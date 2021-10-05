@@ -1,7 +1,8 @@
 /* Styled Contact  */
-.contact-banner{
-    width: 100%;
-    height: 300px;
+.contact-top{
+    color: #fff;
+    background-color: #086FA3;
+    padding: 25px 0;
 }
 .contact-us{
     background-color: rgba(0, 0, 0, 0.096);

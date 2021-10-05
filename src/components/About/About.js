@@ -12,8 +12,8 @@ const About = () => {
     }, []);
     return (
         <div>
-            <div className="about-section">
-                <h1>About Us Page</h1>
+            <div className="about-section ">
+                <h1 className="text-decoration-underline">About Us Page</h1>
                 <p>See Details about Online Edu</p>
                 <p>OnlineEdu is a learning platform for all over the world with best quality courses and Instructors.</p>
             </div>

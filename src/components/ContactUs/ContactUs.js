@@ -12,10 +12,12 @@ const ContactUs = () => {
     const messageIcon = <FontAwesomeIcon icon={faEnvelope} />
     return (
         <div className="contact-us pb-3">
-            <img className="contact-banner" src={ContactBanner} alt="" />
-            <section className="container mb-5">
-                <h2 className="fs-1 font-weight-bolder text-center my-4 text-decoration-underline text-info">Contact us</h2>
+            <div className="contact-top">
+                <h2 className="fs-1 font-weight-bolder text-center my-4 text-decoration-underline">Contact us</h2>
                 <p className="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+
+            </div>
+            <section className="container my-5">
                 <div className="row">
                     <div className="col-md-9 mb-md-0 mb-5 text-start">
                         <form id="contact-form" name="contact-form" action="mail.php" method="POST">

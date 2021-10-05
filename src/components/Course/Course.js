@@ -31,7 +31,7 @@ const Course = (props) => {
                                 emptySymbol={gstar}
                             />  <small className="text-secondary">  {oeRatings} ( {oeRatingCount} Reviews )</small>
                         </Card.Text>
-                        <div className="row">
+                        <div className="row d-flex align-items-center">
                             <p className="col-md-4 list-style-none">{clockIcon} <span>{oeCourseDuration}</span></p>
                             <p className="col-md-4 list-style-none">{lessonIcon}<span> {oeCourseLessons} <small>Lessons</small></span></p>
                             <p className="col-md-4 list-style-none text-danger fw-bold">{DollarIcon}<span> {oePrice}</span></p>
