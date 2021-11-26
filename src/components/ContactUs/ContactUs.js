@@ -14,7 +14,7 @@ const ContactUs = () => {
         <div className="contact-us pb-3">
             <div className="contact-top">
                 <h2 className="fs-1 font-weight-bolder text-center my-4 text-decoration-underline">Contact us</h2>
-                <p className="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+                <p className="text-center w-responsive mx-auto mb-5">Do you have any question? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
 
             </div>
             <section className="container my-5">
