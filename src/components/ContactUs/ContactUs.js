@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationArrow, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import ContactBanner from '../../images/contact banner.png';
 import './ContactUs.css';
 
 const ContactUs = () => {
